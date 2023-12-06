@@ -1,0 +1,13 @@
+<div class="container">
+    <h2>Tarefas</h2>
+    <ul class="list-group">
+        <li *ngFor="let list of list; index as i">
+            <p [ngStyle]="{'background-color': this.marked.indexOf(i) !=-1 ? 'yellow': 'white'}">{{ list }}</p>
+            <button color="primary" type="button" (click)="done(i)">Check ✅</button>
+            <button color="primary" type="button" (click)="delete(i)">Delete 🗑️</button>
+        </li>
+    </ul>
+    <br>  
+    <h2>Adicionar tarefa</h2> 
+    <input type="text" placeholder="input" [(ngModel)]="valor" (keyup.enter)="add()" [maxLength]="100">
+</div>

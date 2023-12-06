@@ -1,0 +1,16 @@
+<div *ngIf="!autenticado; else areaLogada">
+    <h2>Formulário de Login</h2>
+    <label for="email">E-mail:</label>
+    <br>
+    <input type="email" id="email" [(ngModel)]="email" />
+    <br><br>
+    <label for="senha">Senha:</label>
+    <br>
+    <input type="password" id="senha" [(ngModel)]="senha" (keyup.enter)="fazerLogin()"/>
+    <br><br>
+    <button (click)="fazerLogin()">Fazer Login</button>
+  </div>
+
+  <ng-template #areaLogada>
+    <app-area-logada [email]="email" (logout)="fazerLogout()"></app-area-logada>
+  </ng-template>

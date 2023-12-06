@@ -1,0 +1,14 @@
+<div>
+    <h2>Formulário de Cadastro</h2>
+    <label for="nome">Nome:</label><br>
+    <input type="nome" id="nome" [(ngModel)]="nome" />
+    <br>
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" [(ngModel)]="email" />
+    <br>
+    <label for="senha">Senha:</label><br>
+    <input type="password" id="senha" [(ngModel)]="senha" /><br><br>
+    <div [ngStyle]="{'background-color': this.mensagem != 'Olá, informe os campos corretamente.' ? '#66FF99': '#FFCCCB'}" >{{mensagem}}</div>
+    <br>
+    <button (click)="validaCadastro()">Fazer Cadastro</button>
+  </div>
