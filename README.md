@@ -1,15 +1,6 @@
-# AV2-FF  
-Grupo:  
-Roberto Henrique Cavalcanti Freitas - 01536220  
-João antônio Carrazzonni de Lima - 01523593  
-Luan Henrique de Sousa Lucas - 01356035  
-Davi Siqueira de Carvalho Torres- 01633448
+# Av2
 
-=============================
-
-# MyApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
 ## Development server
 
