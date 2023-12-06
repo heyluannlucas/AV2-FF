@@ -2,12 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-componente-pai',
-  template: `
-  <h2>Componente Pai</h2>
-  <app-componente-filho [listaItens]="itens"></app-componente-filho>
-`})
+  templateUrl: './componente-pai.component.html',  
+  styleUrl: './componente-pai.component.css'
+})
 export class ComponentePaiComponent {
 
-  itens= ['Caderno', 'Caneta', 'Livro','Bolsa'];
+  itens= ['Rússia', 'Canadá', 'China','Eua', 'Brasil'];
 
 }
