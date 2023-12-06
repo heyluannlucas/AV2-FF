@@ -2,13 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-area-logada',
-  template: `
-    <div *ngIf="email">
-      <p>Você tem permissão de usuário</p>
-      <p>Email: {{ email }}</p>
-      <button (click)="logout.emit()">Sair</button>
-    </div>
-  `,
+  templateUrl: './area-logada.component.html'
 })
 export class AreaLogadaComponent {
   @Input() email: string = '';

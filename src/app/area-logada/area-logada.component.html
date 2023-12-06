@@ -1,1 +1,6 @@
-<p>area-logada works!</p>
+<div *ngIf="email">
+    <p>Seja bem vindo de volta!</p>
+    <p>Email: {{ email }}</p>
+    <br>
+    <button (click)="logout.emit()">Sair</button>
+  </div>
