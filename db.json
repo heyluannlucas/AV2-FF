@@ -1,0 +1,92 @@
+{
+    "alunos": [
+        {
+            "matricula": "01607953",
+            "nome": "Vitor José Costa da Silva Santos",
+            "idade": 20,
+            "curso": "Ciência da Computação - 4NB",
+            "rendimentoEscolar": {
+                "POO": 8.5,
+                "Front-end": 9.2,
+                "Back-end": 7.8
+            }
+        },
+        {
+            "matricula": "01503852",
+            "nome": "Lucas Fernandes de Almeida Silva",
+            "idade": 22,
+            "curso": "Ciência da Computação - 4NB",
+            "rendimentoEscolar": {
+                "POO": 7.8,
+                "Front-end": 8.5,
+                "Back-end": 9.0
+            }
+        },
+        {
+            "matricula": "01536250",
+            "nome": "Matheus Gentil de Lima Brito",
+            "idade": 21,
+            "curso": "Ciência da Computação - 4NB",
+            "rendimentoEscolar": {
+                "POO": 9.0,
+                "Front-end": 8.0,
+                "Back-end": 7.5
+            }
+        },
+        {
+            "matricula": "01536220",
+            "nome": "Roberto Henrique Cavalcanti Freitas",
+            "idade": 23,
+            "curso": "Ciência da Computação - 4NB",
+            "rendimentoEscolar": {
+                "POO": 8.2,
+                "Front-end": 9.5,
+                "Back-end": 7.0
+            }
+        },
+        {
+            "matricula": "01523593",
+            "nome": "João Antônio Carrazzonni de Lima",
+            "idade": 20,
+            "curso": "Ciência da Computação - 4NB",
+            "rendimentoEscolar": {
+                "POO": 9.5,
+                "Front-end": 8.8,
+                "Back-end": 8.2
+            }
+        },
+        {
+            "matricula": "01633448",
+            "nome": "Davi Siqueira de Carvalho Torres",
+            "idade": 22,
+            "curso": "Ciência da Computação - 4NB",
+            "rendimentoEscolar": {
+                "POO": 7.5,
+                "Front-end": 8.0,
+                "Back-end": 9.2
+            }
+        },
+        {
+            "matricula": "01356035",
+            "nome": "Luann Henrique de Sousa Lucas",
+            "idade": 21,
+            "curso": "Ciência da Computação - 4NB",
+            "rendimentoEscolar": {
+                "POO": 8.8,
+                "Front-end": 9.0,
+                "Back-end": 8.5
+            }
+        },
+        {
+            "matricula": "01515105",
+            "nome": "Victor Manoel do Nascimento Silva",
+            "idade": 23,
+            "curso": "Ciência da Computação - 4NB",
+            "rendimentoEscolar": {
+                "POO": 8.0,
+                "Front-end": 7.5,
+                "Back-end": 8.8
+            }
+        }
+    ]
+}

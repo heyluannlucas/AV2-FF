@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContadorComponentComponent } from './contador-component/contador-component.component';
@@ -12,6 +11,8 @@ import { ComponentePaiComponent } from './componente-pai/componente-pai.componen
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 import { AreaLogadaComponent } from './area-logada/area-logada.component';
 import { FormLoginComponent } from './form-login/form-login.component';
+import { DadosAlunosComponent } from './dados-alunos/dados-alunos.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,14 +24,18 @@ import { FormLoginComponent } from './form-login/form-login.component';
     ComponentePaiComponent,
     ComponenteFilhoComponent,
     AreaLogadaComponent,
-    FormLoginComponent
+    FormLoginComponent,
+    DadosAlunosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    provideClientHydration()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
